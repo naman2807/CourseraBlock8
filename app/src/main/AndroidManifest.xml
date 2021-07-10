@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CourseraBlock8">
         <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
