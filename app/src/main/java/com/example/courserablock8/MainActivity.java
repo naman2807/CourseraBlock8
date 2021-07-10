@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RatingBar;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,5 +18,6 @@ public class MainActivity extends AppCompatActivity {
     public void enter(View v){
         RatingBar ratingBar = findViewById(R.id.rating);
         float rating = ratingBar.getRating();
+        Toast.makeText(this, "Rating: " + rating, Toast.LENGTH_SHORT).show();
     }
 }
