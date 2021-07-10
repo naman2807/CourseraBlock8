@@ -22,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity2.class);
         intent.putExtra("Value", rating);
         startActivity(intent);
+        finish();
     }
 }
