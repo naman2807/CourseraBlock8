@@ -14,5 +14,6 @@
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="150dp"
         android:numStars="3"
+        android:stepSize="1"/>
 
 </LinearLayout>
