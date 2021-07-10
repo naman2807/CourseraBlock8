@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         RatingBar ratingBar = findViewById(R.id.rating);
         float rating = ratingBar.getRating();
         Intent intent = new Intent(this, MainActivity2.class);
+        intent.putExtra("Value","Rating is: " + rating);
         startActivity(intent);
     }
 }
