@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void enter(View v){
         RatingBar ratingBar = findViewById(R.id.rating);
+        float rating = ratingBar.getRating();
     }
 }
